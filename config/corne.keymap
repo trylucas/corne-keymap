@@ -77,6 +77,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <17 18>;
         };
+
+        showdesktop {
+            bindings = <&kp LG(D)>;
+            key-positions = <36 15>;
+        };
     };
 
     keymap {
